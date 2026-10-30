@@ -1,0 +1,722 @@
+{
+  "01.1": {
+    "s": 1,
+    "iz": "751d9a35",
+    "baslik": "Altı katman, sabit sıra"
+  },
+  "01.2": {
+    "s": 1,
+    "iz": "360aa325",
+    "baslik": "Katmanların ne tür stat aldığı"
+  },
+  "01.3": {
+    "s": 1,
+    "iz": "8fdfd91a",
+    "baslik": "Önce kalkan, taşan kısım gövde"
+  },
+  "01.4": {
+    "s": 1,
+    "iz": "618abece",
+    "baslik": "Kritiğin iki biçimi"
+  },
+  "01.5": {
+    "s": 1,
+    "iz": "fdea5c25",
+    "baslik": "Iskalama yok, sıyırma var"
+  },
+  "01.6": {
+    "s": 1,
+    "iz": "5ab7706b",
+    "baslik": "Genişleme kuralı: katman sayısı artmaz"
+  },
+  "01.7": {
+    "s": 1,
+    "iz": "d3c4592c",
+    "baslik": "PvE ↔ PvP tek formül, tek katsayı"
+  },
+  "01.8": {
+    "s": 1,
+    "iz": "eed34ad4",
+    "baslik": "Sözlük: yaylım · DPS · EHP · TTK"
+  },
+  "02.1": {
+    "s": 1,
+    "iz": "106354bf",
+    "baslik": "Kimlik ile etiket ayrı; katman ve kanal 01'den"
+  },
+  "02.2": {
+    "s": 1,
+    "iz": "2bd347db",
+    "baslik": "Kayıt alanları: birim, kapsam, eş, altStat"
+  },
+  "02.3": {
+    "s": 2,
+    "iz": "6745df90",
+    "baslik": "Kapsam sistemi ve çift sayım savunması"
+  },
+  "02.4": {
+    "s": 1,
+    "iz": "7a1b5fd2",
+    "baslik": "Giriş şartı: eşi olmayan stat kütüphaneye giremez"
+  },
+  "02.5": {
+    "s": 1,
+    "iz": "2987ae11",
+    "baslik": "Genişleme şartları"
+  },
+  "02.6": {
+    "s": 1,
+    "iz": "7a27c1fd",
+    "baslik": "Ayrılmış kimlikler"
+  },
+  "02.7": {
+    "s": 2,
+    "iz": "c4d7663c",
+    "baslik": "Kayıt tablosu: yirmi iki kimlik"
+  },
+  "02.8": {
+    "s": 3,
+    "iz": "cabd74be",
+    "baslik": "Kritik çarpanının kimliği"
+  },
+  "03.1": {
+    "s": 2,
+    "iz": "2fefdae9",
+    "baslik": "Değer marjinal katkıdır, zincirden türer"
+  },
+  "03.2": {
+    "s": 2,
+    "iz": "b318c5f9",
+    "baslik": "Referans noktada ölçme kuralı"
+  },
+  "03.3": {
+    "s": 1,
+    "iz": "36ef3f21",
+    "baslik": "Kanal içi fiyatlama, kanallar arası kur 09'un"
+  },
+  "03.4": {
+    "s": 1,
+    "iz": "1af42eff",
+    "baslik": "StatMod tanımı ve çapa sözleşmesi"
+  },
+  "03.5": {
+    "s": 2,
+    "iz": "6054e6c2",
+    "baslik": "Değerleme dövüş süresi"
+  },
+  "03.6": {
+    "s": 1,
+    "iz": "613733bc",
+    "baslik": "Birim tipine göre uygulama sözleşmesi"
+  },
+  "04.1": {
+    "s": 1,
+    "iz": "255db25e",
+    "baslik": "Gemi üç şey verir: taban stat, yuva sayısı, yuva çeşidi"
+  },
+  "04.2": {
+    "s": 1,
+    "iz": "bec60fa9",
+    "baslik": "Yuva haritası ve yuva↔eşya eşleşmesi"
+  },
+  "04.3": {
+    "s": 1,
+    "iz": "975aec41",
+    "baslik": "Jeneratör ikilemi: kalkan ya da hız"
+  },
+  "04.4": {
+    "s": 1,
+    "iz": "03752ce6",
+    "baslik": "Hız jeneratörü kaçınma da verir"
+  },
+  "04.5": {
+    "s": 2,
+    "iz": "d8d7143a",
+    "baslik": "Referans build bileşimi"
+  },
+  "04.6": {
+    "s": 1,
+    "iz": "7426b0a2",
+    "baslik": "Referans zırh ve kaçınma toplamları"
+  },
+  "04.7": {
+    "s": 2,
+    "iz": "2a073b53",
+    "baslik": "Gövde statları merdivenden türer"
+  },
+  "04.8": {
+    "s": 1,
+    "iz": "fd3b4e1f",
+    "baslik": "Yuva merdiveni kesikli, kademe başına bir yuva"
+  },
+  "04.9": {
+    "s": 2,
+    "iz": "ce5f93d3",
+    "baslik": "Sanat kısıtı: lazer yuvası = çizimdeki namlu"
+  },
+  "04.10": {
+    "s": 3,
+    "iz": "c9a4537c",
+    "baslik": "Droid filosu gövdeden bağımsız"
+  },
+  "04.11": {
+    "s": 1,
+    "iz": "4631d3e1",
+    "baslik": "Roketatar her gövdede tam bir yuva"
+  },
+  "04.12": {
+    "s": 2,
+    "iz": "25bc1dfe",
+    "baslik": "Merdiven çizilmiş gövdeleri açıklar"
+  },
+  "05.1": {
+    "s": 1,
+    "iz": "bf71ddb7",
+    "baslik": "İki sağlayıcı tipi, davranış ayrılmış"
+  },
+  "05.2": {
+    "s": 1,
+    "iz": "ce77a568",
+    "baslik": "Sağlayıcı kaydı"
+  },
+  "05.3": {
+    "s": 1,
+    "iz": "87f2170b",
+    "baslik": "Kapsam kuralları ve sızıntı yasağı"
+  },
+  "05.4": {
+    "s": 5,
+    "iz": "dff0f3a7",
+    "baslik": "Yuva → kapsam eşlemesi; droid bir TAŞIYICI"
+  },
+  "05.5": {
+    "s": 3,
+    "iz": "c346e71e",
+    "baslik": "Aktarım katsayısı σ ve biçimi"
+  },
+  "05.6": {
+    "s": 1,
+    "iz": "10e36bdf",
+    "baslik": "Unvan stat vermez"
+  },
+  "05.7": {
+    "s": 2,
+    "iz": "4eece810",
+    "baslik": "ArGe yeni stat icat etmez; güç değil YÖN veriyor"
+  },
+  "05.8": {
+    "s": 2,
+    "iz": "db3792fa",
+    "baslik": "Droid seviyesi altı kademe, çeşit iki, tasarım on"
+  },
+  "05.9": {
+    "s": 1,
+    "iz": "9483e827",
+    "baslik": "Formasyon: tek aktif, imzalı takas"
+  },
+  "05.10": {
+    "s": 1,
+    "iz": "56c8d9c2",
+    "baslik": "Droidin canı yok, dayanıklılığı var"
+  },
+  "06.1": {
+    "s": 1,
+    "iz": "2e216af7",
+    "baslik": "Rank ekseni belirlenimci, yirmi basamak"
+  },
+  "06.2": {
+    "s": 1,
+    "iz": "b7e9cef8",
+    "baslik": "Kalite ekseni rastgele, örneğe özgü"
+  },
+  "06.3": {
+    "s": 1,
+    "iz": "4a42304c",
+    "baslik": "Tasarım, örnek ve malzeme ayrı şemalar"
+  },
+  "06.4": {
+    "s": 1,
+    "iz": "fab8d908",
+    "baslik": "Yükseltme malzemesi ile çevirici ayrı kaynak"
+  },
+  "06.5": {
+    "s": 1,
+    "iz": "c320ffc2",
+    "baslik": "Ana stat belirlenimci, alt statlar rastgele"
+  },
+  "06.6": {
+    "s": 2,
+    "iz": "cdb9cf37",
+    "baslik": "Rank çakışmaz"
+  },
+  "06.7": {
+    "s": 1,
+    "iz": "e4c69d73",
+    "baslik": "Alt stat havuzu yuva tipine göre kısıtlı ve fiyatlı"
+  },
+  "06.8": {
+    "s": 2,
+    "iz": "cbc538ec",
+    "baslik": "Havuz içerikleri"
+  },
+  "06.9": {
+    "s": 2,
+    "iz": "1321cfac",
+    "baslik": "Alt stat sayısı her aileyle bir artıyor"
+  },
+  "06.10": {
+    "s": 2,
+    "iz": "208c77ca",
+    "baslik": "Kalite bandı rankla daralıyor, garantili alt stat"
+  },
+  "06.11": {
+    "s": 1,
+    "iz": "75f19efd",
+    "baslik": "Set bonusu ayrılmış"
+  },
+  "07.1": {
+    "s": 1,
+    "iz": "5fd12438",
+    "baslik": "Üç modül: artı basma, sentez, çevirme"
+  },
+  "07.2": {
+    "s": 1,
+    "iz": "2a81e9e3",
+    "baslik": "Başarısızlık ve kırılma yasağı"
+  },
+  "07.3": {
+    "s": 1,
+    "iz": "d2cb1e6e",
+    "baslik": "Artı merdiveni ve kazanç biçimi"
+  },
+  "07.4": {
+    "s": 1,
+    "iz": "7fe6e8e6",
+    "baslik": "Maliyetin şekil ↔ hacim ayrımı"
+  },
+  "07.5": {
+    "s": 2,
+    "iz": "b8acb7ed",
+    "baslik": "Çevirme hepsini çevirir, kilit korur"
+  },
+  "07.6": {
+    "s": 1,
+    "iz": "fbd2666f",
+    "baslik": "Artı basmada güçlenen alt stat rastgele, miktar sabit"
+  },
+  "07.7": {
+    "s": 1,
+    "iz": "82552d89",
+    "baslik": "Sentez oranı ve kaybı"
+  },
+  "07.8": {
+    "s": 2,
+    "iz": "f1af989a",
+    "baslik": "Çevirme kaynağı ve nadirliği"
+  },
+  "07.9": {
+    "s": 1,
+    "iz": "bb0e73c6",
+    "baslik": "Malzemenin rank kapısı rolü"
+  },
+  "07.10": {
+    "s": 1,
+    "iz": "bb807156",
+    "baslik": "Soket ayrılmış"
+  },
+  "08.1": {
+    "s": 1,
+    "iz": "889aa5a0",
+    "baslik": "Payı ilan et, katsayıyı türet"
+  },
+  "08.2": {
+    "s": 2,
+    "iz": "dcc84233",
+    "baslik": "Katsayı gövdeye bağlı"
+  },
+  "08.3": {
+    "s": 2,
+    "iz": "18cca903",
+    "baslik": "Marjinal fiyatlar toplanmaz; 08 dağıtır, 16 ölçer"
+  },
+  "08.4": {
+    "s": 1,
+    "iz": "b8f973ca",
+    "baslik": "A = D, puanlarda değil gerçekleşende"
+  },
+  "08.5": {
+    "s": 2,
+    "iz": "6759dafd",
+    "baslik": "Gövde havuzu TTK'dan çözülür"
+  },
+  "08.6": {
+    "s": 1,
+    "iz": "dc306e05",
+    "baslik": "Gövde ↔ eşya kolu"
+  },
+  "09.1": {
+    "s": 1,
+    "iz": "34ef9d5c",
+    "baslik": "BR geometrik ortalama"
+  },
+  "09.2": {
+    "s": 1,
+    "iz": "92b84a92",
+    "baslik": "Kanallar arası kur = referans TTK"
+  },
+  "09.3": {
+    "s": 1,
+    "iz": "5cc3bdd3",
+    "baslik": "A = D kısıtının anlamı"
+  },
+  "09.4": {
+    "s": 1,
+    "iz": "00bab52f",
+    "baslik": "Savunma çapası ve ölçekleme"
+  },
+  "09.5": {
+    "s": 1,
+    "iz": "6e6df888",
+    "baslik": "Sistem kanalı değerleri ve tavanı"
+  },
+  "09.6": {
+    "s": 1,
+    "iz": "a37f6f81",
+    "baslik": "Droid'in iki katsayısı"
+  },
+  "09.7": {
+    "s": 1,
+    "iz": "c8bc0a2e",
+    "baslik": "Ölçek sabiti K"
+  },
+  "10.1": {
+    "s": 1,
+    "iz": "013dd094",
+    "baslik": "Seviye ↔ BR ayrımı"
+  },
+  "10.2": {
+    "s": 1,
+    "iz": "9e32fd7c",
+    "baslik": "Rank merdiveni ve renk kapakları"
+  },
+  "10.3": {
+    "s": 1,
+    "iz": "85d75fa1",
+    "baslik": "Unvan eşikleri: yüz yirmi basamak, eşit oranlı"
+  },
+  "10.4": {
+    "s": 2,
+    "iz": "31393e7b",
+    "baslik": "Unvan isimleri, çağlar ve görsel kimlik"
+  },
+  "10.5": {
+    "s": 2,
+    "iz": "dd624679",
+    "baslik": "Gelir ölçekleme üssü α"
+  },
+  "10.6": {
+    "s": 2,
+    "iz": "4360a509",
+    "baslik": "Referans build fonksiyonu"
+  },
+  "10.7": {
+    "s": 1,
+    "iz": "d2ee33b4",
+    "baslik": "Sistem açılış sırası"
+  },
+  "10.8": {
+    "s": 1,
+    "iz": "c70e2473",
+    "baslik": "Günlük tavan ve yorgunluk"
+  },
+  "11.1": {
+    "s": 1,
+    "iz": "668eeae4",
+    "baslik": "Bölge = gövde kademesi; her bölgede üç harita"
+  },
+  "11.2": {
+    "s": 1,
+    "iz": "951d1e4a",
+    "baslik": "Bant yapısı ve bant başına gelir"
+  },
+  "11.3": {
+    "s": 1,
+    "iz": "42365d6e",
+    "baslik": "Kapı savaş puanı: referansın dörtte üçü"
+  },
+  "11.4": {
+    "s": 1,
+    "iz": "3d25169f",
+    "baslik": "Seviye ikincil kapı"
+  },
+  "11.5": {
+    "s": 1,
+    "iz": "7465f291",
+    "baslik": "Harita boyutu ve yoğunluk türetilir"
+  },
+  "11.6": {
+    "s": 1,
+    "iz": "c5e740d0",
+    "baslik": "PvP primi hesaplanabilir"
+  },
+  "12.1": {
+    "s": 1,
+    "iz": "eaeb1283",
+    "baslik": "Üç sınıf, üç rol"
+  },
+  "12.2": {
+    "s": 2,
+    "iz": "bb664d3b",
+    "baslik": "Can bir süredir"
+  },
+  "12.3": {
+    "s": 1,
+    "iz": "5372352b",
+    "baslik": "Ödül bir hızdır"
+  },
+  "12.4": {
+    "s": 1,
+    "iz": "effb9ebf",
+    "baslik": "Hasar bir kaçış penceresidir"
+  },
+  "12.5": {
+    "s": 1,
+    "iz": "209df5dc",
+    "baslik": "Boss: iki saatte bir, her bantta"
+  },
+  "12.6": {
+    "s": 1,
+    "iz": "3d06c616",
+    "baslik": "NOVA ölçeklenmez"
+  },
+  "12.7": {
+    "s": 1,
+    "iz": "24659cbd",
+    "baslik": "Kadro: otuz iki yaratık, sekiz bölge"
+  },
+  "13.1": {
+    "s": 1,
+    "iz": "3589cca6",
+    "baslik": "Üç kaynak, üç davranış"
+  },
+  "13.2": {
+    "s": 1,
+    "iz": "115d1479",
+    "baslik": "Dönüşüm yasağı"
+  },
+  "13.3": {
+    "s": 1,
+    "iz": "7246dc12",
+    "baslik": "Onarım türetiliyor, gerisi bölünüyor"
+  },
+  "13.4": {
+    "s": 1,
+    "iz": "42b71381",
+    "baslik": "Yorgunluk eşiği ölçekleniyor"
+  },
+  "13.5": {
+    "s": 1,
+    "iz": "6906517e",
+    "baslik": "Birikim tamponu"
+  },
+  "13.6": {
+    "s": 2,
+    "iz": "e8528971",
+    "baslik": "+15 nesil içinde ulaşılamaz; endgame kuyruğu"
+  },
+  "13.7": {
+    "s": 1,
+    "iz": "6797f64b",
+    "baslik": "Paralel ekonomi: pazar yok"
+  },
+  "14.1": {
+    "s": 1,
+    "iz": "d4e36308",
+    "baslik": "Üç düşen, üç ritim"
+  },
+  "14.2": {
+    "s": 1,
+    "iz": "302e1c5f",
+    "baslik": "Malzeme kuru: bir öldürme, bir malzeme"
+  },
+  "14.3": {
+    "s": 2,
+    "iz": "59bda33a",
+    "baslik": "Düşme şansı birinci banttan türer"
+  },
+  "14.4": {
+    "s": 1,
+    "iz": "95a9d710",
+    "baslik": "Rank dağılımı ve PRD yalnız üst rankta"
+  },
+  "14.5": {
+    "s": 1,
+    "iz": "0d2000c8",
+    "baslik": "Parçalama: eşyanın ikinci hayatı"
+  },
+  "14.6": {
+    "s": 1,
+    "iz": "ead64403",
+    "baslik": "Boss ganimeti garantili"
+  },
+  "15.1": {
+    "s": 3,
+    "iz": "d2d502cb",
+    "baslik": "Önce ne satılamayacağı"
+  },
+  "15.2": {
+    "s": 1,
+    "iz": "2ce5117a",
+    "baslik": "Kredi mağazası: taban eşya"
+  },
+  "15.3": {
+    "s": 3,
+    "iz": "d4a3bbc3",
+    "baslik": "NOVA mağazası: zaman satar"
+  },
+  "15.4": {
+    "s": 1,
+    "iz": "e7bb92d1",
+    "baslik": "Paranın tavanı ölçülür"
+  },
+  "15.5": {
+    "s": 1,
+    "iz": "10c57e15",
+    "baslik": "Paketler ve bonus eğrisi"
+  },
+  "15.6": {
+    "s": 1,
+    "iz": "b84abc04",
+    "baslik": "Ödeme oranı ve ARPPU hedefi"
+  },
+  "15.7": {
+    "s": 1,
+    "iz": "10b20593",
+    "baslik": "NOVA rafı: üç taban tasarım, bir kademe üstte"
+  },
+  "15.8": {
+    "s": 1,
+    "iz": "ad39ca7f",
+    "baslik": "Başlangıç kredisi raftan türüyor"
+  },
+  "15.9": {
+    "s": 1,
+    "iz": "0919791f",
+    "baslik": "Görünüş satılır: tasarım ve formasyon"
+  },
+  "16.1": {
+    "s": 1,
+    "iz": "7535670a",
+    "baslik": "Beş test türü"
+  },
+  "16.2": {
+    "s": 1,
+    "iz": "7d84648f",
+    "baslik": "Karar döngüleri kapalı"
+  },
+  "16.3": {
+    "s": 1,
+    "iz": "c3d9ae01",
+    "baslik": "Tek tepe tablo: dışında elle sayı yok"
+  },
+  "16.4": {
+    "s": 1,
+    "iz": "398f8586",
+    "baslik": "Sayı borçları ve eksik sistemler derlenir"
+  },
+  "16.5": {
+    "s": 1,
+    "iz": "75667a76",
+    "baslik": "Yeni alan ekleme adımları"
+  },
+  "16.6": {
+    "s": 1,
+    "iz": "8de399b6",
+    "baslik": "Denetim tutarlılık ölçer, doğruluk değil"
+  },
+  "16.7": {
+    "s": 1,
+    "iz": "b96ae246",
+    "baslik": "Türetilen sayılar da etiketle doğrulanır"
+  },
+  "16.8": {
+    "s": 1,
+    "iz": "0a93f2f6",
+    "baslik": "Kodda demek sınanmış demek"
+  },
+  "16.9": {
+    "s": 1,
+    "iz": "42a32137",
+    "baslik": "Borç defteri ve yan belgeler denetimde"
+  },
+  "17.1": {
+    "s": 1,
+    "iz": "2d595271",
+    "baslik": "Mermi PvE'de değil PvP'de belirleyici"
+  },
+  "17.2": {
+    "s": 1,
+    "iz": "f71d4fa1",
+    "baslik": "MR-1 bedava ve sınırsız"
+  },
+  "17.3": {
+    "s": 1,
+    "iz": "ed760e49",
+    "baslik": "Çarpan yalnız taban hasarı çarpar"
+  },
+  "17.4": {
+    "s": 1,
+    "iz": "81b7802f",
+    "baslik": "Fiyat eğrisi iki ankrajdan geçer"
+  },
+  "17.5": {
+    "s": 1,
+    "iz": "48ad7f44",
+    "baslik": "Tavan çarpan PvP primini yer"
+  },
+  "17.6": {
+    "s": 1,
+    "iz": "ae5c2525",
+    "baslik": "Sifon yalnız kalkana"
+  },
+  "17.7": {
+    "s": 1,
+    "iz": "63265f5e",
+    "baslik": "Mermi NOVA ile satılmaz, BR saymaz"
+  },
+  "17.8": {
+    "s": 1,
+    "iz": "4be03f9a",
+    "baslik": "Birim namlu atışı, stok hesapta"
+  },
+  "18.1": {
+    "s": 1,
+    "iz": "fe5020c4",
+    "baslik": "Roketatar bir silah, kadans oranıyla"
+  },
+  "18.2": {
+    "s": 1,
+    "iz": "e2136e3f",
+    "baslik": "Roket zinciri geminin, tabanı roketin"
+  },
+  "18.3": {
+    "s": 1,
+    "iz": "b81aec07",
+    "baslik": "Roket mermisi: RK-1 bedava, üstü mermi eğrisiyle"
+  },
+  "18.4": {
+    "s": 1,
+    "iz": "3e804fdb",
+    "baslik": "Stok hesapta, seçim savaş çubuğunda"
+  },
+  "18.5": {
+    "s": 1,
+    "iz": "d3982567",
+    "baslik": "Roket NOVA ile satılmaz, mermisi BR saymaz"
+  },
+  "18.6": {
+    "s": 1,
+    "iz": "5a721943",
+    "baslik": "Ayrı atış olayı, ayrı çizim"
+  }
+}

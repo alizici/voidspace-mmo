@@ -1,0 +1,78 @@
+name: voidspace3
+description: >-
+  Flutter + Flame uzay MMO'su. Otorite sunucuda, tahmin istemcide, simülasyon
+  ikisinin PAYLAŞTIĞI çekirdekte.
+publish_to: none
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.5
+
+# Tek çözümleme (pub workspace): istemci, sunucu ve çekirdek tek bir kilit
+# dosyası paylaşır. Sürüm ayrışması bir netcode projesinde teorik bir risk
+# değil — iki tarafın farklı `voidspace_core` görmesi tam olarak önlemeye
+# çalıştığımız sapmanın kendisi.
+workspace:
+  - packages/voidspace_core
+  - server
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Üç dil (tr · en · it) için Flutter'ın KENDİ metinleri: metin seçme menüsü
+  # ("Yapıştır"), erişilebilirlik etiketleri, klavye eylem adları. Oyunun
+  # metinleri `lib/dil/` altında elle yazılı — bu paket yalnız çerçevenin
+  # kendi dizelerini taşıyor, ve o dizeler olmadan İtalyanca oynayan biri
+  # parola alanına uzun bastığında İngilizce bir menü görüyordu.
+  flutter_localizations:
+    sdk: flutter
+  # Simülasyon döngüsü, kamera, bileşen ağacı.
+  flame: ^1.37.0
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.7
+  # Sunucuyla PAYLAŞILAN simülasyon ve protokol.
+  voidspace_core:
+    path: packages/voidspace_core
+  # Tek WebSocket API'si: web'de `dart:html`, native'de `dart:io` altına
+  # iner. İstemci kodunun hedef platformu bilmemesinin tek sebebi bu.
+  web_socket_channel: ^3.0.1
+  # Oturum belirtecini diske yazmak için. Mobilde işletim sistemi uygulamayı
+  # rutin olarak öldürüyor ve bellekteki belirteç her seferinde parola ekranı
+  # demekti. Uygulama kumbarası (iOS NSUserDefaults / Android SharedPreferences)
+  # yeterli: belirteç 12 saat ömürlü ve iptal edilebilir, ve depo zaten
+  # uygulamaya özel.
+  shared_preferences: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: ^10.0.0
+  flutter_lints: ^6.0.0
+  # YALNIZ test için. Netcode'un tek anlamlı testi uçtan uca olanıdır: gerçek
+  # bir sunucu, gerçek soketler, gerçek gecikme. Sahte bir taşıma katmanı,
+  # kanıtlaması gereken şeyin tam olarak yanından geçerdi.
+  voidspace_server:
+    path: server
+
+flutter:
+  # Gemi atlası. `tool/ship_atlas_test.dart` tarafından ÜRETİLİR — depoda
+  # kökeni bilinmeyen ikili dosya yok kuralı bozulmuyor.
+  assets:
+    - assets/ship_atlas.png
+    # Void Leviathan sprite şeridi (8 kare × 256×256).
+    #
+    # Atlastan FARKLI: atlas üretilmiş bir çıktı, bu ise hazır çizilmiş bir
+    # varlık. Kökeni `assets/leviathan_strip.README.txt` içinde yazılı —
+    # "depoda kökeni bilinmeyen ikili dosya yok" kuralı böyle korunuyor.
+    - assets/leviathan_strip.png
+
+    # Gövde tasarım sprite'ları — voidspace2 katalogundan taşındı.
+    #
+    # Kökenleri ve İSİM ÇAKIŞMASI uyarısı `assets/ships/README.txt` içinde.
+    # Hangi sprite'ın hangi kademede durduğu tek yerde yazılı:
+    # `lib/game/art/govde_tasarimlari.dart`.
+    - assets/ships/
+
+  # Material ikon fontu KULLANILMIYOR (HUD'da hiç `Icons.*` yok). Açık bırakmak
+  # derlemeye gereksiz bir font sokuyor ve eksik font uyarısı üretiyordu.
+  uses-material-design: false

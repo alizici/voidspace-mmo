@@ -1,0 +1,19 @@
+name: voidspace_server
+description: >-
+  Voidspace otorite sunucusu. Flutter YOK — saf `dart:io`, AOT derlenir.
+publish_to: none
+version: 0.1.0
+resolution: workspace
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  voidspace_core:
+    path: ../packages/voidspace_core
+  # HMAC-SHA256 — parola türetmesi (PBKDF2) için. Kendi kriptomuzu yazmıyoruz.
+  crypto: ^3.0.6
+
+dev_dependencies:
+  test: ^1.25.0
+  lints: ^6.0.0

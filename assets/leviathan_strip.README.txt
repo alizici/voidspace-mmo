@@ -1,0 +1,12 @@
+Void Leviathan - 2D top-down mob
+=================================
+Kaynak: PixelLab object f6528290-4a0d-4260-8d4b-cded407226ce (1 yon, 256x256)
+
+base_sprite.png        Tek kare statik sprite, 256x256, transparan
+strip8_2048x256.png    Yatay spritesheet: 8 kare x 256x256 = 2048x256
+frames/frame_01..08    Ayri kareler, 256x256, transparan
+idle_loop8.gif         Onizleme (oyunda kullanma, sadece kontrol icin)
+
+Animasyon: idle_hover, 8 kare, dongusel.
+Yon YOK - tek tepeden sprite. Donusu motorda yap (Flutter/Flame: angle).
+Spritesheet okuma: kare i -> src rect (i*256, 0, 256, 256)

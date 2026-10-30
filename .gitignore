@@ -1,0 +1,72 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Hesap deposu — kişisel veri, depoya girmez.
+/data/
+# `server/` içinden koşulan testler defteri kendi yanlarına yazıyor.
+/server/data/
+
+# Golden testleri uyuşmazlıkta bu klasöre teşhis görüntüsü yazıyor.
+# Çıktı, kaynak değil.
+failures/
+
+# Obsidian: kişisel çalışma alanı, vault ayarı değil
+docs/.obsidian/workspace.json
+docs/.obsidian/workspace-mobile.json
+docs/.obsidian/cache/
+olcum-*.log
+
+# Claude Code: kişisel ayarlar ve yerel notlar depoya girmez.
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Claude masaüstü uygulamasının çıktı klasörü. Proje dışına taşındı
+# (../voidspace3-claude-outputs); yeniden oluşursa depoya girmesin.
+/Claude outputs/
+
+# Server build output
+server/build/
+packages/voidspace_core/build/

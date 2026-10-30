@@ -1,0 +1,5 @@
+package com.voidspace.voidspace3
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()

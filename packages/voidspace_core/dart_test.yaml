@@ -1,0 +1,15 @@
+# Test türleri (alan 16, karar 16.1). Her test dosyası birini ya da birkaçını
+# `@Tags([...])` ile ilan eder; denetim sayar, `dart test -t aralik` tek türü koşar.
+tags:
+  yabanci-anahtar:
+    description: Atıf yapılan şey var mı.
+  aralik:
+    description: Bir oran bandın içinde mi.
+  turetme:
+    description: Formülle mi geldi, elle mi yazıldı.
+  kapsam:
+    description: Hiçbir şey dışarıda kaldı mı.
+  kod-belge:
+    description: Çalışan oyun belgeye uyuyor mu.
+  disi:
+    description: Alan 16'nın dışında — ağ, simülasyon, arayüz, güvenlik.

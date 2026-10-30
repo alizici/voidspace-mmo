@@ -1,0 +1,14 @@
+name: voidspace_core
+description: >-
+  Sunucu ve istemcinin ORTAK çekirdeği: dünya kuralları, deterministik gemi
+  simülasyonu ve tel protokolü. Saf Dart — Flutter, Flame ve Bloc bilmez.
+publish_to: none
+version: 0.1.0
+resolution: workspace
+
+environment:
+  sdk: ^3.11.5
+
+dev_dependencies:
+  test: ^1.25.0
+  lints: ^6.0.0

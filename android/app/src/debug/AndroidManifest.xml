@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- YALNIZ hata ayıklama derlemesi.
+
+         Android 9'dan (API 28) beri şifresiz trafik varsayılan olarak KAPALI.
+         Geliştirmede istemci `ws://<mac-ip>:8080` ile yerel sunucuya
+         bağlanıyor ve bu bayrak olmadan bağlantı sessizce kurulamıyor.
+
+         `main` manifestine DEĞİL buraya konuyor: yayın derlemesi şifresiz
+         trafiğe kapalı kalmak zorunda. Üretimde adres `wss://` olacak ve o
+         gün bu dosyanın hiçbir etkisi olmayacak — geliştirme kolaylığı için
+         açılan bir kapının yayına sızmasının tek güvenilir yolu, kapıyı
+         yayının göremeyeceği bir yere koymak. -->
+    <application android:usesCleartextTraffic="true" />
+</manifest>
